@@ -12,10 +12,13 @@ print(etime)
 
 st = fileMerge()
 
+# Filter the data using the 4th order butterworth filter
+# with the passband 0.05Hz - 45Hz
+st.filter('bandpass', freqmin=0.05, freqmax=45, corners=4, zerophase=False)
+
 st.plot()
 
 ## Export sliced miniseed files
-
 for jj in xrange(stime.size):
     t0 = UTCDateTime(stime[jj])
     t1 = UTCDateTime(etime[jj])
