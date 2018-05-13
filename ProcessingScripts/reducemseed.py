@@ -20,8 +20,8 @@ st.plot()
 
 ## Export sliced miniseed files
 for jj in xrange(stime.size):
-    t0 = UTCDateTime(stime[jj])
-    t1 = UTCDateTime(etime[jj])
+    t0 = UTCDateTime(str(stime[jj]))
+    t1 = UTCDateTime(str(etime[jj]))
     #st0 = sliceTrace(st, t0, t1)
     st0 = st.slice(t0, t1)
     st0.plot(outfile="TEST%i" % jj + ".pdf")
