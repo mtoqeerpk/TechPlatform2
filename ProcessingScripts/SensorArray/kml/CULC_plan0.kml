@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CULC_plan0.kml</name>
+	<Schema name="CULC_Array50" id="S_CULC_Array50_DD">
+		<SimpleField type="double" name="Latitude"><displayName>&lt;b&gt;Latitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Longitude"><displayName>&lt;b&gt;Longitude&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="CULC_Array150" id="S_CULC_Array150_DD">
+		<SimpleField type="double" name="Latitude"><displayName>&lt;b&gt;Latitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Longitude"><displayName>&lt;b&gt;Longitude&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle3">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Latitude</b></td><td>$[CULC_Array50/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[CULC_Array50/Longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Latitude</b></td><td>$[CULC_Array150/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[CULC_Array150/Longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_placemark_circle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Latitude</b></td><td>$[CULC_Array50/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[CULC_Array50/Longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Latitude</b></td><td>$[CULC_Array150/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[CULC_Array150/Longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Latitude</b></td><td>$[CULC_Array50/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[CULC_Array50/Longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Latitude</b></td><td>$[CULC_Array50/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[CULC_Array50/Longitude]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>CULC_plan0</name>
+		<open>1</open>
+		<Folder id="layer 0">
+			<name>CULC_Array150</name>
+			<LookAt>
+				<longitude>172.8045965080176</longitude>
+				<latitude>-42.75995196531757</latitude>
+				<altitude>0</altitude>
+				<heading>0.0009969524330793447</heading>
+				<tilt>16.64627714932968</tilt>
+				<range>664.4841781406531</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Placemark>
+				<name>CULC0-150m-S04</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array150_DD">
+						<SimpleData name="Latitude">-42.7606</SimpleData>
+						<SimpleData name="Longitude">172.805</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.8049016,-42.76061957000002,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-150m-S02</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array150_DD">
+						<SimpleData name="Latitude">-42.7601</SimpleData>
+						<SimpleData name="Longitude">172.805</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80455815,-42.76009092,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-150m-S01</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array150_DD">
+						<SimpleData name="Latitude">-42.76</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80378312,-42.75995918000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-150m-S08</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array150_DD">
+						<SimpleData name="Latitude">-42.7603</SimpleData>
+						<SimpleData name="Longitude">172.803</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.8031601,-42.76032354,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-150m-S07</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array150_DD">
+						<SimpleData name="Latitude">-42.7609</SimpleData>
+						<SimpleData name="Longitude">172.803</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80315825,-42.76090963000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-150m-S06</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array150_DD">
+						<SimpleData name="Latitude">-42.7613</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80377896,-42.76127611999998,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-150m-S05</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array150_DD">
+						<SimpleData name="Latitude">-42.7611</SimpleData>
+						<SimpleData name="Longitude">172.805</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80455483,-42.76114703,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-150m-S09</name>
+				<styleUrl>#pointStyleMap2</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array150_DD">
+						<SimpleData name="Latitude">-42.7606</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.803985,-42.76061799999999,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder id="layer 0">
+			<name>CULC_Array50</name>
+			<Placemark>
+				<name>CULC0-50m-S04</name>
+				<styleUrl>#msn_placemark_circle</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array50_DD">
+						<SimpleData name="Latitude">-42.7606</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80429053,-42.76061852000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-50m-S02</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array50_DD">
+						<SimpleData name="Latitude">-42.7604</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80417605,-42.76044231,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-50m-S01</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array50_DD">
+						<SimpleData name="Latitude">-42.7604</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.8039177,-42.76039839000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-50m-S08</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array50_DD">
+						<SimpleData name="Latitude">-42.7605</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80371003,-42.76051985,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-50m-S07</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array50_DD">
+						<SimpleData name="Latitude">-42.7607</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80370942,-42.76071521,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-50m-S06</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array50_DD">
+						<SimpleData name="Latitude">-42.7608</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80391632,-42.76083736999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-50m-S05</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array50_DD">
+						<SimpleData name="Latitude">-42.7608</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.80417494,-42.76079433999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CULC0-50m-S09</name>
+				<styleUrl>#pointStyleMap3</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_CULC_Array50_DD">
+						<SimpleData name="Latitude">-42.7606</SimpleData>
+						<SimpleData name="Longitude">172.804</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>172.803985,-42.76061799999999,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
